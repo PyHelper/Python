@@ -5,8 +5,9 @@ pygame.init()
 win = pygame.display.set_mode((500,500))
 
 pygame.display.set_caption("Sierpinsky Triangle")
-#Трикутник (a,b,c).
-#Розміри.
+
+# Triangle (a, b, c).
+# Dimensions.
 widht=10
 height=10
 widhtr=1
@@ -26,13 +27,12 @@ y1=490
 x2=490
 y2=490
 
-#Рандомна точка.
+# Random point.
 xr=random.randint(0,500)
 yr=random.randint(0,500)
 ############
 a=2
 
-#ДРЕВНЯ МАГІЯ НЕ ЧІПАЄМО ТУТ НІЧОГО.
 run = True
 while  run:
           pygame.time.delay(1)
